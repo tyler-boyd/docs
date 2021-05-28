@@ -4,9 +4,6 @@ summary: Learn how to benchmark CockroachDB against TPC-C with 81 nodes on `c5d.
 toc: true
 toc_not_nested: true
 key: performance-benchmarking-with-tpc-c-100k-warehouses.html
-redirect_from:
-- performance-benchmarking-with-tpc-c.html
-- performance-benchmarking-with-tpc-c-100k-warehouses.html
 ---
 
 This page shows you how to reproduce [CockroachDB's TPC-C performance benchmarking results](performance.html#scale) on commodity AWS hardware. Across all scales, CockroachDB can process tpmC (new order transactions per minute) at near maximum efficiency. Start by choosing the scale you're interested in:
